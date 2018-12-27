@@ -14,9 +14,9 @@ class ChartLine extends Component {
               datasets: [{
                 data: Object.values(data),
                 backgroundColor: [
-                  'rgba(0, 0, 0, 0)',
+                  'rgba(0, 100, 152, 0.5)',
                 ],
-                borderColor: [ "#303030" ],
+                borderColor: [ "#6caed1" ],
               }],
             }}
             options={{
