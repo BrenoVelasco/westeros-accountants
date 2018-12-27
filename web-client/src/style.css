@@ -132,6 +132,23 @@ input[type="number"] {
   background-color: #6caed1 !important;
 }
 
+.-filters {
+  background-color: #ebebeb !important;
+
+}
+
+.rt-th > input {
+  /* background-color: #006498 !important; */
+}
+
+.-sort-asc {
+  box-shadow: inset 0 2px 0 0 #6caed1 !important;
+}
+
+.-sort-desc {
+  box-shadow: inset 0 -2px 0 0 #6caed1 !important;
+}
+
 /* Charts.jsx */
 .chartWidth {
   max-width: 800px !important;
