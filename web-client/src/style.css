@@ -139,6 +139,7 @@ input[type="number"] {
 
 .rt-th > input {
   background-color: #f8f8f8 !important;
+  border-radius: 0 !important;
 }
 
 .-sort-asc {
