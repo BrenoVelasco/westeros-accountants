@@ -6,9 +6,10 @@ class CSVTable extends Component {
   onRowClick = (state, rowInfo, column, instance) => {
     return {
       onClick: e => {
-        console.log('It was in this row:', rowInfo.original)
-        this.props.handleRender("rowData");
-        this.props.handleRowData(rowInfo.original);
+        if (rowInfo) {
+          this.props.handleRender("rowData");
+          this.props.handleRowData(rowInfo.original);
+        }
       }
     }
   }
