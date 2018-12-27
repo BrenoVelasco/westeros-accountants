@@ -36,6 +36,8 @@ class CSVTable extends Component {
             ofText='de'
             rowsText='linhas'
             getTdProps={this.onRowClick}
+            filterable
+            defaultFilterMethod={(filter, row) => String(row[filter.id]).toLocaleLowerCase().includes(filter.value.toLocaleLowerCase())}
           />
         </div>
       </div>
